@@ -15,7 +15,7 @@ module.exports = class extends BaseCommand {
             options: {
                 aliases: [],
                 clientPermissions: ['BAN_MEMBERS'],
-                cooldown: 10,
+                cooldown: 1,
                 nsfwCommand: false,
                 args: true,
                 usage: 'ban <User> [...Reason]\nban <User> [Duration] [...Reason]',

@@ -14,7 +14,7 @@ module.exports = class extends BaseCommand {
             options: {
                 aliases: ['clearwarnings'],
                 clientPermissions: [],
-                cooldown: 10,
+                cooldown: 1,
                 nsfwCommand: false,
                 args: true,
                 usage: 'clearwarns <User>',
