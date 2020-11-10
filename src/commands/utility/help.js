@@ -157,24 +157,24 @@ module.exports = class extends BaseCommand {
           `Join our [Support Server](${client.unicron.serverInviteURL}) for help and updates!\n\`\`\`xl\n${prefix}help [Category]\n\`\`\``
         )
         .addField(
-          `${await client.getEmoji("staff")} Moderation`,
+          `🔨 Moderation`,
           `\`moderation\``,
           true
         )
         .addField(
-          `${await client.getEmoji("settings")} Settings`,
+          `⚙️ Settings`,
           `\`settings\``,
           true
         )
         .addField(`🎫 Ticket System`, `\`ticket\``, true)
         .addField(`♾️ Dynamic Text/Voice`, `\`dynamic\``, true)
         .addField(
-          ` Utility`,
+          `:hammer_pick: Utility`,
           `\`utility\``,
           true
         )
         .addField(`🔍 Search`, `\`search\``, true)
-        .addField(` Misc`, `\`misc\``, true)
+        .addField(`🧰 Misc`, `\`misc\``, true)
         .addField("😂 Fun", `\`fun\``, true)
         .setTimestamp()
     );

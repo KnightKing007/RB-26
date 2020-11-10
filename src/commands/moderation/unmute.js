@@ -15,7 +15,7 @@ module.exports = class extends BaseCommand {
             options: {
                 aliases: [],
                 clientPermissions: ['MANAGE_ROLES', 'MANAGE_CHANNELS'],
-                cooldown: 10,
+                cooldown: 1,
                 nsfwCommand: false,
                 args: true,
                 usage: 'unmute <User> [...Reason]',

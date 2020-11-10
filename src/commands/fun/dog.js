@@ -20,7 +20,7 @@ module.exports = class extends BaseCommand {
                 nsfwCommand: false,
                 args: false,
                 usage: '',
-                donatorOnly: true,
+                donatorOnly: false,
                 premiumServer: false,
             }
         });
