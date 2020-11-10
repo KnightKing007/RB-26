@@ -22,7 +22,7 @@
     "moment": "^2.27.0",
     "moment-duration-format": "^2.3.2",
     "ms": "^2.1.2",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "one-liner-joke": "^1.2.0",
     "passport": "^0.4.1",
     "passport-discord": "^0.1.4",
